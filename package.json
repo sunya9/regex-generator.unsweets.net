@@ -24,10 +24,10 @@
     "rollup-plugin-node-globals": "^1.1.0",
     "rollup-plugin-node-resolve": "^2.0.0",
     "rollup-plugin-postcss": "^0.2.0",
+    "rollup-plugin-serve": "^0.1.0",
     "vue": "^2.1.8"
   },
   "devDependencies": {
-    "rollup-plugin-serve": "^0.1.0",
     "rollup-watch": "^2.5.0"
   }
 }
