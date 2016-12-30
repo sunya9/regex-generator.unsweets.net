@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup -c --environment NODE_ENV:production && cp -r public/ build/",
+    "build": "rollup -c --environment NODE_ENV:production && cp -r public/* build/",
     "start": "rollup -cw"
   },
   "keywords": [],
