@@ -1,12 +1,33 @@
 {
   "name": "online-regexgen",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Online regex generator tool using regexgen.",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c --environment NODE_ENV:production && cp -r public/ build/",
+    "start": "rollup -cw"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "_X_y_z_",
+  "license": "MIT",
+  "dependencies": {
+    "babel-preset-env": "^1.1.4",
+    "clipboard": "^1.5.16",
+    "milligram-cssnext": "^1.0.1",
+    "postcss-cssnext": "^2.9.0",
+    "postcss-import": "^9.0.0",
+    "regexgen": "^1.2.2",
+    "rollup": "^0.39.0",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-commonjs": "^7.0.0",
+    "rollup-plugin-node-globals": "^1.1.0",
+    "rollup-plugin-node-resolve": "^2.0.0",
+    "rollup-plugin-postcss": "^0.2.0",
+    "vue": "^2.1.8"
+  },
+  "devDependencies": {
+    "rollup-plugin-serve": "^0.1.0",
+    "rollup-watch": "^2.5.0"
+  }
 }

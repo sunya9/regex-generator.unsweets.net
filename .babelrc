@@ -1,0 +1,11 @@
+{
+  "presets": [[
+      "env", {
+        "browsers": ["last 1 versions"],
+        "useBuiltIns": true,
+        "modules": false,
+        "exclude": ["transform-regenerator", "transform-es2015-classes"]
+      }
+    ]
+  ]
+}

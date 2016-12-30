@@ -1,0 +1,28 @@
+@import 'milligram-cssnext';
+
+:root {
+  --color-primary: #046380;
+}
+
+textarea {
+  height: auto;
+}
+
+.copy {
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+}
+
+footer {
+  position: relative;
+  padding-top: 2rem;
+  &::before {
+    content: '';
+    width: 100px;
+    display: block;
+    top: 0;
+    position: absolute;
+    border-top: 3px solid var(--color-quaternary);
+  }
+}
