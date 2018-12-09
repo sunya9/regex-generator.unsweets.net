@@ -25,7 +25,7 @@
     "rollup-plugin-node-resolve": "2.1.1",
     "rollup-plugin-postcss": "0.5.6",
     "rollup-plugin-serve": "0.1.0",
-    "vue": "2.5.18"
+    "vue": "2.5.19"
   },
   "devDependencies": {
     "rollup-watch": "2.5.0"
