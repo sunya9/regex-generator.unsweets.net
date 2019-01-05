@@ -30,6 +30,6 @@
     "@babel/core": "7.2.2",
     "@babel/preset-env": "7.2.3",
     "postcss-preset-env": "6.5.0",
-    "rollup-watch": "2.5.0"
+    "rollup-watch": "4.3.1"
   }
 }
