@@ -1,22 +1,20 @@
 {
   "name": "online-regexgen",
-  "version": "1.0.0",
   "description": "Online regex generator tool using regexgen.",
-  "private": true,
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup -c --environment NODE_ENV:production && cp -r public/* build/",
-    "start": "rollup -cw"
-  },
-  "keywords": [],
+  "version": "1.0.0",
   "author": "_X_y_z_",
-  "license": "MIT",
   "dependencies": {
     "clipboard": "2.0.4",
     "milligram-cssnext": "1.0.1",
+    "regexgen": "1.3.0",
+    "vue": "2.5.21"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.2",
+    "@babel/preset-env": "7.2.3",
     "postcss-cssnext": "3.1.0",
     "postcss-import": "12.0.1",
-    "regexgen": "1.3.0",
+    "postcss-preset-env": "6.5.0",
     "rollup": "1.0.2",
     "rollup-plugin-babel": "4.2.0",
     "rollup-plugin-commonjs": "9.2.0",
@@ -24,12 +22,14 @@
     "rollup-plugin-node-resolve": "4.0.0",
     "rollup-plugin-postcss": "1.6.3",
     "rollup-plugin-serve": "0.6.1",
-    "vue": "2.5.21"
-  },
-  "devDependencies": {
-    "@babel/core": "7.2.2",
-    "@babel/preset-env": "7.2.3",
-    "postcss-preset-env": "6.5.0",
     "rollup-watch": "4.3.1"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "rollup -c --environment NODE_ENV:production && cp -r public/* build/",
+    "start": "rollup -cw",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
