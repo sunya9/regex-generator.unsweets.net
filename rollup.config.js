@@ -8,8 +8,11 @@ import nodeGlobals from 'rollup-plugin-node-globals'
 import babel from 'rollup-plugin-babel'
 
 const config = {
-  entry: 'src/js/main.js',
-  dest: 'build/js/main.js',
+  input: 'src/js/main.js',
+  output: {
+    file: 'build/js/main.js',
+    format: 'umd'
+  },
   plugins: [
     nodeResolve({
       browser: true,
@@ -18,19 +21,14 @@ const config = {
     }),
     commonjs(),
     nodeGlobals(),
-    postcss({
-      plugins: [
-        cssImport(),
-        cssnext()
-      ]
-    }),
+    postcss(),
     babel()
   ]
 }
 
 if(process.env.NODE_ENV !== 'production') {
   config.plugins.push(serve({
-    contentBase: 'public',
+    contentBase: ['build', 'public'],
     historyApiFallback: false
   }))
 }
