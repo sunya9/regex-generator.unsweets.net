@@ -4348,10 +4348,10 @@ vlq@^0.2.2:
   resolved "https://registry.yarnpkg.com/vlq/-/vlq-0.2.3.tgz#8f3e4328cf63b1540c0d67e1b2778386f8975b26"
   integrity sha512-DRibZL6DsNhIgYQ+wNdWDL2SL3bKPlVrRiBqV5yuMm++op8W4kGFtaQfCs4KEJn0wBZcHVHJ3eoywX8983k1ow==
 
-vue@2.6.2:
-  version "2.6.2"
-  resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.2.tgz#1cc9c9c8f7ba8df45e9b97c284947de78b76301c"
-  integrity sha512-NZAb0H+t3/99g2nygURcEJ+ncvzNLPiEiFI5MGhc1Cjsw5uYprF+Ol7SOd1RXPcmVVzK7jUBl0th2tNgt+VQDg==
+vue@2.6.3:
+  version "2.6.3"
+  resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.3.tgz#180017ba25b94a9864b2921db8644e1062ea82a0"
+  integrity sha512-yftjtahz4UTAtOlXXuw7UaYD86fWrMDAAzqTdqJJx2FIBqcPmBN6kPBHiBJFGaQELVblb5ijbFMXsx0i0F7q3g==
 
 whet.extend@~0.9.9:
   version "0.9.9"
