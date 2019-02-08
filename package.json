@@ -21,7 +21,7 @@
     "rollup-plugin-node-globals": "1.4.0",
     "rollup-plugin-node-resolve": "4.0.0",
     "rollup-plugin-postcss": "1.6.3",
-    "rollup-plugin-serve": "0.6.1",
+    "rollup-plugin-serve": "1.0.1",
     "rollup-watch": "4.3.1"
   },
   "keywords": [],
