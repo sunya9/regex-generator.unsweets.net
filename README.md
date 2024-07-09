@@ -2,6 +2,6 @@
 
 Regex generator source. 
 
-Site: [Regex generator](regex-generator.unsweets.net)
+Site: [Regex generator](https://regex-generator.unsweets.net)
 
 Powered by [regexgen](https://github.com/devongovett/regexgen)
